@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Janniks Portfolio</title>
+  <title>Startseite - Jannik</title>
   <style>
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f5f5f5;
       color: #333;
-      height: 200vh; /* macht die Seite scrollbar */
+      height: 200vh;
     }
 
-    /* --- Hero-Bereich --- */
     header {
       position: relative;
       height: 100vh;
@@ -41,7 +40,6 @@
       font-size: 1.5rem;
     }
 
-    /* --- Navigation --- */
     nav {
       position: absolute;
       bottom: 40px;
@@ -73,7 +71,6 @@
       text-decoration: underline;
     }
 
-    /* --- Inhalt (Platzhalter) --- */
     main {
       max-width: 800px;
       margin: 5rem auto;
@@ -102,7 +99,6 @@
   <main>
     <h2>Willkommen!</h2>
     <p>Scroll nach unten, um mehr über mich und meine Arbeit zu erfahren.</p>
-    <p>Hier könntest du später noch Inhalte, Projekte oder Bilder hinzufügen.</p>
   </main>
 
   <footer>
@@ -111,7 +107,6 @@
 
   <script>
     const header = document.getElementById("hero");
-
     window.addEventListener("scroll", () => {
       if (window.scrollY > 50) {
         header.classList.add("shrink");
