@@ -40,7 +40,7 @@
   </header>
 
 <a href="mailto:jannik.neurohr@gmail.com">
-  <button style="
+  <button id="mailButton" style="
     padding: 0.5rem 1rem;
     background-color: #4f46e5;
     color: white;
@@ -52,6 +52,16 @@
     Schreib mir
   </button>
 </a>
+
+<script>
+  // Button zentrieren
+  const btn = document.getElementById("mailButton");
+  btn.style.position = "absolute";
+  btn.style.top = "50%";
+  btn.style.left = "50%";
+  btn.style.transform = "translate(-50%, -50%)";
+</script>
+
 
 
   <footer>
@@ -67,4 +77,5 @@
   </script>
 </body>
 </html>
+
 
